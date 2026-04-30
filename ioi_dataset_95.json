@@ -1,0 +1,857 @@
+[
+    {
+        "clean_prompt": "Then Catherine and Thomas went to the movies, and Thomas gave a ticket to",
+        "corrupted_prompt": "Then Catherine and Thomas went to the movies, and Sarah gave a ticket to",
+        "name_A": "Catherine",
+        "name_B": "Thomas",
+        "name_C": "Sarah",
+        "template": "Then {A} and {B} went to the movies, and {B} gave a ticket to",
+        "template_idx": 0
+    },
+    {
+        "clean_prompt": "Then Michelle and Emily went to the movies, and Emily gave a ticket to",
+        "corrupted_prompt": "Then Michelle and Emily went to the movies, and Steven gave a ticket to",
+        "name_A": "Michelle",
+        "name_B": "Emily",
+        "name_C": "Steven",
+        "template": "Then {A} and {B} went to the movies, and {B} gave a ticket to",
+        "template_idx": 0
+    },
+    {
+        "clean_prompt": "Then Karen and Helen went to the movies, and Helen gave a ticket to",
+        "corrupted_prompt": "Then Karen and Helen went to the movies, and Dennis gave a ticket to",
+        "name_A": "Karen",
+        "name_B": "Helen",
+        "name_C": "Dennis",
+        "template": "Then {A} and {B} went to the movies, and {B} gave a ticket to",
+        "template_idx": 0
+    },
+    {
+        "clean_prompt": "Then Nicole and Laura went to the movies, and Laura gave a ticket to",
+        "corrupted_prompt": "Then Nicole and Laura went to the movies, and Christine gave a ticket to",
+        "name_A": "Nicole",
+        "name_B": "Laura",
+        "name_C": "Christine",
+        "template": "Then {A} and {B} went to the movies, and {B} gave a ticket to",
+        "template_idx": 0
+    },
+    {
+        "clean_prompt": "Then Jacob and Michael went to the movies, and Michael gave a ticket to",
+        "corrupted_prompt": "Then Jacob and Michael went to the movies, and Sarah gave a ticket to",
+        "name_A": "Jacob",
+        "name_B": "Michael",
+        "name_C": "Sarah",
+        "template": "Then {A} and {B} went to the movies, and {B} gave a ticket to",
+        "template_idx": 0
+    },
+    {
+        "clean_prompt": "Then Laura and Dorothy went to the movies, and Dorothy gave a ticket to",
+        "corrupted_prompt": "Then Laura and Dorothy went to the movies, and Kimberly gave a ticket to",
+        "name_A": "Laura",
+        "name_B": "Dorothy",
+        "name_C": "Kimberly",
+        "template": "Then {A} and {B} went to the movies, and {B} gave a ticket to",
+        "template_idx": 0
+    },
+    {
+        "clean_prompt": "Then Katherine and Ashley went to the movies, and Ashley gave a ticket to",
+        "corrupted_prompt": "Then Katherine and Ashley went to the movies, and Carolyn gave a ticket to",
+        "name_A": "Katherine",
+        "name_B": "Ashley",
+        "name_C": "Carolyn",
+        "template": "Then {A} and {B} went to the movies, and {B} gave a ticket to",
+        "template_idx": 0
+    },
+    {
+        "clean_prompt": "Then Maria and Nicole went to the movies, and Nicole gave a ticket to",
+        "corrupted_prompt": "Then Maria and Nicole went to the movies, and Kathleen gave a ticket to",
+        "name_A": "Maria",
+        "name_B": "Nicole",
+        "name_C": "Kathleen",
+        "template": "Then {A} and {B} went to the movies, and {B} gave a ticket to",
+        "template_idx": 0
+    },
+    {
+        "clean_prompt": "Then Steven and Angela went to the movies, and Angela gave a ticket to",
+        "corrupted_prompt": "Then Steven and Angela went to the movies, and Christine gave a ticket to",
+        "name_A": "Steven",
+        "name_B": "Angela",
+        "name_C": "Christine",
+        "template": "Then {A} and {B} went to the movies, and {B} gave a ticket to",
+        "template_idx": 0
+    },
+    {
+        "clean_prompt": "Then Michelle and John went to the movies, and John gave a ticket to",
+        "corrupted_prompt": "Then Michelle and John went to the movies, and Matthew gave a ticket to",
+        "name_A": "Michelle",
+        "name_B": "John",
+        "name_C": "Matthew",
+        "template": "Then {A} and {B} went to the movies, and {B} gave a ticket to",
+        "template_idx": 0
+    },
+    {
+        "clean_prompt": "Then Maria and Jacob went to the movies, and Jacob gave a ticket to",
+        "corrupted_prompt": "Then Maria and Jacob went to the movies, and Deborah gave a ticket to",
+        "name_A": "Maria",
+        "name_B": "Jacob",
+        "name_C": "Deborah",
+        "template": "Then {A} and {B} went to the movies, and {B} gave a ticket to",
+        "template_idx": 0
+    },
+    {
+        "clean_prompt": "Then Michelle and Betty went to the movies, and Betty gave a ticket to",
+        "corrupted_prompt": "Then Michelle and Betty went to the movies, and Dorothy gave a ticket to",
+        "name_A": "Michelle",
+        "name_B": "Betty",
+        "name_C": "Dorothy",
+        "template": "Then {A} and {B} went to the movies, and {B} gave a ticket to",
+        "template_idx": 0
+    },
+    {
+        "clean_prompt": "Then Deborah and Helen went to the movies, and Helen gave a ticket to",
+        "corrupted_prompt": "Then Deborah and Helen went to the movies, and Laura gave a ticket to",
+        "name_A": "Deborah",
+        "name_B": "Helen",
+        "name_C": "Laura",
+        "template": "Then {A} and {B} went to the movies, and {B} gave a ticket to",
+        "template_idx": 0
+    },
+    {
+        "clean_prompt": "Then Jason and Richard went to the movies, and Richard gave a ticket to",
+        "corrupted_prompt": "Then Jason and Richard went to the movies, and Stephanie gave a ticket to",
+        "name_A": "Jason",
+        "name_B": "Richard",
+        "name_C": "Stephanie",
+        "template": "Then {A} and {B} went to the movies, and {B} gave a ticket to",
+        "template_idx": 0
+    },
+    {
+        "clean_prompt": "Then Emma and Nicholas went to the movies, and Nicholas gave a ticket to",
+        "corrupted_prompt": "Then Emma and Nicholas went to the movies, and Justin gave a ticket to",
+        "name_A": "Emma",
+        "name_B": "Nicholas",
+        "name_C": "Justin",
+        "template": "Then {A} and {B} went to the movies, and {B} gave a ticket to",
+        "template_idx": 0
+    },
+    {
+        "clean_prompt": "Then Nancy and Jason went to the movies, and Jason gave a ticket to",
+        "corrupted_prompt": "Then Nancy and Jason went to the movies, and William gave a ticket to",
+        "name_A": "Nancy",
+        "name_B": "Jason",
+        "name_C": "William",
+        "template": "Then {A} and {B} went to the movies, and {B} gave a ticket to",
+        "template_idx": 0
+    },
+    {
+        "clean_prompt": "Then Scott and Carol went to the movies, and Carol gave a ticket to",
+        "corrupted_prompt": "Then Scott and Carol went to the movies, and Patrick gave a ticket to",
+        "name_A": "Scott",
+        "name_B": "Carol",
+        "name_C": "Patrick",
+        "template": "Then {A} and {B} went to the movies, and {B} gave a ticket to",
+        "template_idx": 0
+    },
+    {
+        "clean_prompt": "Then Rachel and Timothy went to the movies, and Timothy gave a ticket to",
+        "corrupted_prompt": "Then Rachel and Timothy went to the movies, and Samantha gave a ticket to",
+        "name_A": "Rachel",
+        "name_B": "Timothy",
+        "name_C": "Samantha",
+        "template": "Then {A} and {B} went to the movies, and {B} gave a ticket to",
+        "template_idx": 0
+    },
+    {
+        "clean_prompt": "Then Mark and Robert went to the movies, and Robert gave a ticket to",
+        "corrupted_prompt": "Then Mark and Robert went to the movies, and Emma gave a ticket to",
+        "name_A": "Mark",
+        "name_B": "Robert",
+        "name_C": "Emma",
+        "template": "Then {A} and {B} went to the movies, and {B} gave a ticket to",
+        "template_idx": 0
+    },
+    {
+        "clean_prompt": "Then Jack and Kimberly went to the movies, and Kimberly gave a ticket to",
+        "corrupted_prompt": "Then Jack and Kimberly went to the movies, and Carol gave a ticket to",
+        "name_A": "Jack",
+        "name_B": "Kimberly",
+        "name_C": "Carol",
+        "template": "Then {A} and {B} went to the movies, and {B} gave a ticket to",
+        "template_idx": 0
+    },
+    {
+        "clean_prompt": "Then William and Kimberly went to the movies, and Kimberly gave a ticket to",
+        "corrupted_prompt": "Then William and Kimberly went to the movies, and Richard gave a ticket to",
+        "name_A": "William",
+        "name_B": "Kimberly",
+        "name_C": "Richard",
+        "template": "Then {A} and {B} went to the movies, and {B} gave a ticket to",
+        "template_idx": 0
+    },
+    {
+        "clean_prompt": "Then Jason and Michelle went to the movies, and Michelle gave a ticket to",
+        "corrupted_prompt": "Then Jason and Michelle went to the movies, and Nicholas gave a ticket to",
+        "name_A": "Jason",
+        "name_B": "Michelle",
+        "name_C": "Nicholas",
+        "template": "Then {A} and {B} went to the movies, and {B} gave a ticket to",
+        "template_idx": 0
+    },
+    {
+        "clean_prompt": "Then Catherine and Timothy went to the movies, and Timothy gave a ticket to",
+        "corrupted_prompt": "Then Catherine and Timothy went to the movies, and Matthew gave a ticket to",
+        "name_A": "Catherine",
+        "name_B": "Timothy",
+        "name_C": "Matthew",
+        "template": "Then {A} and {B} went to the movies, and {B} gave a ticket to",
+        "template_idx": 0
+    },
+    {
+        "clean_prompt": "Then Rebecca and Stephanie went to the movies, and Stephanie gave a ticket to",
+        "corrupted_prompt": "Then Rebecca and Stephanie went to the movies, and Paul gave a ticket to",
+        "name_A": "Rebecca",
+        "name_B": "Stephanie",
+        "name_C": "Paul",
+        "template": "Then {A} and {B} went to the movies, and {B} gave a ticket to",
+        "template_idx": 0
+    },
+    {
+        "clean_prompt": "Then Janet and Kenneth went to the movies, and Kenneth gave a ticket to",
+        "corrupted_prompt": "Then Janet and Kenneth went to the movies, and Maria gave a ticket to",
+        "name_A": "Janet",
+        "name_B": "Kenneth",
+        "name_C": "Maria",
+        "template": "Then {A} and {B} went to the movies, and {B} gave a ticket to",
+        "template_idx": 0
+    },
+    {
+        "clean_prompt": "Then Ruth and Alexander went to the movies, and Alexander gave a ticket to",
+        "corrupted_prompt": "Then Ruth and Alexander went to the movies, and Anna gave a ticket to",
+        "name_A": "Ruth",
+        "name_B": "Alexander",
+        "name_C": "Anna",
+        "template": "Then {A} and {B} went to the movies, and {B} gave a ticket to",
+        "template_idx": 0
+    },
+    {
+        "clean_prompt": "Then Justin and Emily went to the movies, and Emily gave a ticket to",
+        "corrupted_prompt": "Then Justin and Emily went to the movies, and Matthew gave a ticket to",
+        "name_A": "Justin",
+        "name_B": "Emily",
+        "name_C": "Matthew",
+        "template": "Then {A} and {B} went to the movies, and {B} gave a ticket to",
+        "template_idx": 0
+    },
+    {
+        "clean_prompt": "Then Shirley and Jason went to the movies, and Jason gave a ticket to",
+        "corrupted_prompt": "Then Shirley and Jason went to the movies, and Kenneth gave a ticket to",
+        "name_A": "Shirley",
+        "name_B": "Jason",
+        "name_C": "Kenneth",
+        "template": "Then {A} and {B} went to the movies, and {B} gave a ticket to",
+        "template_idx": 0
+    },
+    {
+        "clean_prompt": "Then Catherine and Jerry went to the movies, and Jerry gave a ticket to",
+        "corrupted_prompt": "Then Catherine and Jerry went to the movies, and Katherine gave a ticket to",
+        "name_A": "Catherine",
+        "name_B": "Jerry",
+        "name_C": "Katherine",
+        "template": "Then {A} and {B} went to the movies, and {B} gave a ticket to",
+        "template_idx": 0
+    },
+    {
+        "clean_prompt": "Then Steven and Ruth went to the movies, and Ruth gave a ticket to",
+        "corrupted_prompt": "Then Steven and Ruth went to the movies, and Melissa gave a ticket to",
+        "name_A": "Steven",
+        "name_B": "Ruth",
+        "name_C": "Melissa",
+        "template": "Then {A} and {B} went to the movies, and {B} gave a ticket to",
+        "template_idx": 0
+    },
+    {
+        "clean_prompt": "Then Lisa and Kimberly went to the movies, and Kimberly gave a ticket to",
+        "corrupted_prompt": "Then Lisa and Kimberly went to the movies, and Michael gave a ticket to",
+        "name_A": "Lisa",
+        "name_B": "Kimberly",
+        "name_C": "Michael",
+        "template": "Then {A} and {B} went to the movies, and {B} gave a ticket to",
+        "template_idx": 0
+    },
+    {
+        "clean_prompt": "When George and Cynthia were working on a project, Cynthia showed the results to",
+        "corrupted_prompt": "When George and Cynthia were working on a project, Kenneth showed the results to",
+        "name_A": "George",
+        "name_B": "Cynthia",
+        "name_C": "Kenneth",
+        "template": "When {A} and {B} were working on a project, {B} showed the results to",
+        "template_idx": 1
+    },
+    {
+        "clean_prompt": "When Robert and Dorothy were working on a project, Dorothy showed the results to",
+        "corrupted_prompt": "When Robert and Dorothy were working on a project, Brandon showed the results to",
+        "name_A": "Robert",
+        "name_B": "Dorothy",
+        "name_C": "Brandon",
+        "template": "When {A} and {B} were working on a project, {B} showed the results to",
+        "template_idx": 1
+    },
+    {
+        "clean_prompt": "When George and Dorothy were working on a project, Dorothy showed the results to",
+        "corrupted_prompt": "When George and Dorothy were working on a project, Carolyn showed the results to",
+        "name_A": "George",
+        "name_B": "Dorothy",
+        "name_C": "Carolyn",
+        "template": "When {A} and {B} were working on a project, {B} showed the results to",
+        "template_idx": 1
+    },
+    {
+        "clean_prompt": "When Emma and Jeffrey were working on a project, Jeffrey showed the results to",
+        "corrupted_prompt": "When Emma and Jeffrey were working on a project, Alexander showed the results to",
+        "name_A": "Emma",
+        "name_B": "Jeffrey",
+        "name_C": "Alexander",
+        "template": "When {A} and {B} were working on a project, {B} showed the results to",
+        "template_idx": 1
+    },
+    {
+        "clean_prompt": "When Nicholas and Daniel were working on a project, Daniel showed the results to",
+        "corrupted_prompt": "When Nicholas and Daniel were working on a project, Donna showed the results to",
+        "name_A": "Nicholas",
+        "name_B": "Daniel",
+        "name_C": "Donna",
+        "template": "When {A} and {B} were working on a project, {B} showed the results to",
+        "template_idx": 1
+    },
+    {
+        "clean_prompt": "When Karen and Emily were working on a project, Emily showed the results to",
+        "corrupted_prompt": "When Karen and Emily were working on a project, Katherine showed the results to",
+        "name_A": "Karen",
+        "name_B": "Emily",
+        "name_C": "Katherine",
+        "template": "When {A} and {B} were working on a project, {B} showed the results to",
+        "template_idx": 1
+    },
+    {
+        "clean_prompt": "When Justin and Donna were working on a project, Donna showed the results to",
+        "corrupted_prompt": "When Justin and Donna were working on a project, Benjamin showed the results to",
+        "name_A": "Justin",
+        "name_B": "Donna",
+        "name_C": "Benjamin",
+        "template": "When {A} and {B} were working on a project, {B} showed the results to",
+        "template_idx": 1
+    },
+    {
+        "clean_prompt": "When Jacob and Benjamin were working on a project, Benjamin showed the results to",
+        "corrupted_prompt": "When Jacob and Benjamin were working on a project, Cynthia showed the results to",
+        "name_A": "Jacob",
+        "name_B": "Benjamin",
+        "name_C": "Cynthia",
+        "template": "When {A} and {B} were working on a project, {B} showed the results to",
+        "template_idx": 1
+    },
+    {
+        "clean_prompt": "When Timothy and Steven were working on a project, Steven showed the results to",
+        "corrupted_prompt": "When Timothy and Steven were working on a project, Karen showed the results to",
+        "name_A": "Timothy",
+        "name_B": "Steven",
+        "name_C": "Karen",
+        "template": "When {A} and {B} were working on a project, {B} showed the results to",
+        "template_idx": 1
+    },
+    {
+        "clean_prompt": "When Anna and Emma were working on a project, Emma showed the results to",
+        "corrupted_prompt": "When Anna and Emma were working on a project, Laura showed the results to",
+        "name_A": "Anna",
+        "name_B": "Emma",
+        "name_C": "Laura",
+        "template": "When {A} and {B} were working on a project, {B} showed the results to",
+        "template_idx": 1
+    },
+    {
+        "clean_prompt": "When David and Thomas were working on a project, Thomas showed the results to",
+        "corrupted_prompt": "When David and Thomas were working on a project, Betty showed the results to",
+        "name_A": "David",
+        "name_B": "Thomas",
+        "name_C": "Betty",
+        "template": "When {A} and {B} were working on a project, {B} showed the results to",
+        "template_idx": 1
+    },
+    {
+        "clean_prompt": "When Patrick and Matthew were working on a project, Matthew showed the results to",
+        "corrupted_prompt": "When Patrick and Matthew were working on a project, Ruth showed the results to",
+        "name_A": "Patrick",
+        "name_B": "Matthew",
+        "name_C": "Ruth",
+        "template": "When {A} and {B} were working on a project, {B} showed the results to",
+        "template_idx": 1
+    },
+    {
+        "clean_prompt": "When Jacob and Samuel were working on a project, Samuel showed the results to",
+        "corrupted_prompt": "When Jacob and Samuel were working on a project, Robert showed the results to",
+        "name_A": "Jacob",
+        "name_B": "Samuel",
+        "name_C": "Robert",
+        "template": "When {A} and {B} were working on a project, {B} showed the results to",
+        "template_idx": 1
+    },
+    {
+        "clean_prompt": "When Sharon and Jason were working on a project, Jason showed the results to",
+        "corrupted_prompt": "When Sharon and Jason were working on a project, Samuel showed the results to",
+        "name_A": "Sharon",
+        "name_B": "Jason",
+        "name_C": "Samuel",
+        "template": "When {A} and {B} were working on a project, {B} showed the results to",
+        "template_idx": 1
+    },
+    {
+        "clean_prompt": "When Shirley and Pamela were working on a project, Pamela showed the results to",
+        "corrupted_prompt": "When Shirley and Pamela were working on a project, Joshua showed the results to",
+        "name_A": "Shirley",
+        "name_B": "Pamela",
+        "name_C": "Joshua",
+        "template": "When {A} and {B} were working on a project, {B} showed the results to",
+        "template_idx": 1
+    },
+    {
+        "clean_prompt": "When Scott and Mary were working on a project, Mary showed the results to",
+        "corrupted_prompt": "When Scott and Mary were working on a project, Ruth showed the results to",
+        "name_A": "Scott",
+        "name_B": "Mary",
+        "name_C": "Ruth",
+        "template": "When {A} and {B} were working on a project, {B} showed the results to",
+        "template_idx": 1
+    },
+    {
+        "clean_prompt": "When Thomas and Ruth were working on a project, Ruth showed the results to",
+        "corrupted_prompt": "When Thomas and Ruth were working on a project, Justin showed the results to",
+        "name_A": "Thomas",
+        "name_B": "Ruth",
+        "name_C": "Justin",
+        "template": "When {A} and {B} were working on a project, {B} showed the results to",
+        "template_idx": 1
+    },
+    {
+        "clean_prompt": "When Kenneth and Alexander were working on a project, Alexander showed the results to",
+        "corrupted_prompt": "When Kenneth and Alexander were working on a project, Deborah showed the results to",
+        "name_A": "Kenneth",
+        "name_B": "Alexander",
+        "name_C": "Deborah",
+        "template": "When {A} and {B} were working on a project, {B} showed the results to",
+        "template_idx": 1
+    },
+    {
+        "clean_prompt": "When Thomas and Carol were working on a project, Carol showed the results to",
+        "corrupted_prompt": "When Thomas and Carol were working on a project, Amy showed the results to",
+        "name_A": "Thomas",
+        "name_B": "Carol",
+        "name_C": "Amy",
+        "template": "When {A} and {B} were working on a project, {B} showed the results to",
+        "template_idx": 1
+    },
+    {
+        "clean_prompt": "When Matthew and Nicholas were working on a project, Nicholas showed the results to",
+        "corrupted_prompt": "When Matthew and Nicholas were working on a project, John showed the results to",
+        "name_A": "Matthew",
+        "name_B": "Nicholas",
+        "name_C": "John",
+        "template": "When {A} and {B} were working on a project, {B} showed the results to",
+        "template_idx": 1
+    },
+    {
+        "clean_prompt": "When Donna and Stephen were working on a project, Stephen showed the results to",
+        "corrupted_prompt": "When Donna and Stephen were working on a project, Donald showed the results to",
+        "name_A": "Donna",
+        "name_B": "Stephen",
+        "name_C": "Donald",
+        "template": "When {A} and {B} were working on a project, {B} showed the results to",
+        "template_idx": 1
+    },
+    {
+        "clean_prompt": "When Stephen and Helen were working on a project, Helen showed the results to",
+        "corrupted_prompt": "When Stephen and Helen were working on a project, Patrick showed the results to",
+        "name_A": "Stephen",
+        "name_B": "Helen",
+        "name_C": "Patrick",
+        "template": "When {A} and {B} were working on a project, {B} showed the results to",
+        "template_idx": 1
+    },
+    {
+        "clean_prompt": "When Brian and Catherine were working on a project, Catherine showed the results to",
+        "corrupted_prompt": "When Brian and Catherine were working on a project, Stephen showed the results to",
+        "name_A": "Brian",
+        "name_B": "Catherine",
+        "name_C": "Stephen",
+        "template": "When {A} and {B} were working on a project, {B} showed the results to",
+        "template_idx": 1
+    },
+    {
+        "clean_prompt": "When Rebecca and Matthew were working on a project, Matthew showed the results to",
+        "corrupted_prompt": "When Rebecca and Matthew were working on a project, Nicole showed the results to",
+        "name_A": "Rebecca",
+        "name_B": "Matthew",
+        "name_C": "Nicole",
+        "template": "When {A} and {B} were working on a project, {B} showed the results to",
+        "template_idx": 1
+    },
+    {
+        "clean_prompt": "When Pamela and John were working on a project, John showed the results to",
+        "corrupted_prompt": "When Pamela and John were working on a project, Samuel showed the results to",
+        "name_A": "Pamela",
+        "name_B": "John",
+        "name_C": "Samuel",
+        "template": "When {A} and {B} were working on a project, {B} showed the results to",
+        "template_idx": 1
+    },
+    {
+        "clean_prompt": "When Melissa and Jonathan were working on a project, Jonathan showed the results to",
+        "corrupted_prompt": "When Melissa and Jonathan were working on a project, James showed the results to",
+        "name_A": "Melissa",
+        "name_B": "Jonathan",
+        "name_C": "James",
+        "template": "When {A} and {B} were working on a project, {B} showed the results to",
+        "template_idx": 1
+    },
+    {
+        "clean_prompt": "When Thomas and Timothy were working on a project, Timothy showed the results to",
+        "corrupted_prompt": "When Thomas and Timothy were working on a project, Amanda showed the results to",
+        "name_A": "Thomas",
+        "name_B": "Timothy",
+        "name_C": "Amanda",
+        "template": "When {A} and {B} were working on a project, {B} showed the results to",
+        "template_idx": 1
+    },
+    {
+        "clean_prompt": "When Andrew and Lisa were working on a project, Lisa showed the results to",
+        "corrupted_prompt": "When Andrew and Lisa were working on a project, Brandon showed the results to",
+        "name_A": "Andrew",
+        "name_B": "Lisa",
+        "name_C": "Brandon",
+        "template": "When {A} and {B} were working on a project, {B} showed the results to",
+        "template_idx": 1
+    },
+    {
+        "clean_prompt": "When William and Jonathan were working on a project, Jonathan showed the results to",
+        "corrupted_prompt": "When William and Jonathan were working on a project, Robert showed the results to",
+        "name_A": "William",
+        "name_B": "Jonathan",
+        "name_C": "Robert",
+        "template": "When {A} and {B} were working on a project, {B} showed the results to",
+        "template_idx": 1
+    },
+    {
+        "clean_prompt": "When Justin and Charles were working on a project, Charles showed the results to",
+        "corrupted_prompt": "When Justin and Charles were working on a project, Jack showed the results to",
+        "name_A": "Justin",
+        "name_B": "Charles",
+        "name_C": "Jack",
+        "template": "When {A} and {B} were working on a project, {B} showed the results to",
+        "template_idx": 1
+    },
+    {
+        "clean_prompt": "When Eric and Scott were working on a project, Scott showed the results to",
+        "corrupted_prompt": "When Eric and Scott were working on a project, Margaret showed the results to",
+        "name_A": "Eric",
+        "name_B": "Scott",
+        "name_C": "Margaret",
+        "template": "When {A} and {B} were working on a project, {B} showed the results to",
+        "template_idx": 1
+    },
+    {
+        "clean_prompt": "Then Jacob and Dorothy had a long argument, and afterwards Dorothy said sorry to",
+        "corrupted_prompt": "Then Jacob and Dorothy had a long argument, and afterwards Nicole said sorry to",
+        "name_A": "Jacob",
+        "name_B": "Dorothy",
+        "name_C": "Nicole",
+        "template": "Then {A} and {B} had a long argument, and afterwards {B} said sorry to",
+        "template_idx": 2
+    },
+    {
+        "clean_prompt": "Then Jerry and Ashley had a long argument, and afterwards Ashley said sorry to",
+        "corrupted_prompt": "Then Jerry and Ashley had a long argument, and afterwards Amanda said sorry to",
+        "name_A": "Jerry",
+        "name_B": "Ashley",
+        "name_C": "Amanda",
+        "template": "Then {A} and {B} had a long argument, and afterwards {B} said sorry to",
+        "template_idx": 2
+    },
+    {
+        "clean_prompt": "Then Cynthia and Janet had a long argument, and afterwards Janet said sorry to",
+        "corrupted_prompt": "Then Cynthia and Janet had a long argument, and afterwards Carolyn said sorry to",
+        "name_A": "Cynthia",
+        "name_B": "Janet",
+        "name_C": "Carolyn",
+        "template": "Then {A} and {B} had a long argument, and afterwards {B} said sorry to",
+        "template_idx": 2
+    },
+    {
+        "clean_prompt": "Then Rebecca and Gary had a long argument, and afterwards Gary said sorry to",
+        "corrupted_prompt": "Then Rebecca and Gary had a long argument, and afterwards Larry said sorry to",
+        "name_A": "Rebecca",
+        "name_B": "Gary",
+        "name_C": "Larry",
+        "template": "Then {A} and {B} had a long argument, and afterwards {B} said sorry to",
+        "template_idx": 2
+    },
+    {
+        "clean_prompt": "Then Angela and Nancy had a long argument, and afterwards Nancy said sorry to",
+        "corrupted_prompt": "Then Angela and Nancy had a long argument, and afterwards Emily said sorry to",
+        "name_A": "Angela",
+        "name_B": "Nancy",
+        "name_C": "Emily",
+        "template": "Then {A} and {B} had a long argument, and afterwards {B} said sorry to",
+        "template_idx": 2
+    },
+    {
+        "clean_prompt": "Then Steven and Robert had a long argument, and afterwards Robert said sorry to",
+        "corrupted_prompt": "Then Steven and Robert had a long argument, and afterwards Deborah said sorry to",
+        "name_A": "Steven",
+        "name_B": "Robert",
+        "name_C": "Deborah",
+        "template": "Then {A} and {B} had a long argument, and afterwards {B} said sorry to",
+        "template_idx": 2
+    },
+    {
+        "clean_prompt": "Then James and Christine had a long argument, and afterwards Christine said sorry to",
+        "corrupted_prompt": "Then James and Christine had a long argument, and afterwards Scott said sorry to",
+        "name_A": "James",
+        "name_B": "Christine",
+        "name_C": "Scott",
+        "template": "Then {A} and {B} had a long argument, and afterwards {B} said sorry to",
+        "template_idx": 2
+    },
+    {
+        "clean_prompt": "Then Kimberly and Christine had a long argument, and afterwards Christine said sorry to",
+        "corrupted_prompt": "Then Kimberly and Christine had a long argument, and afterwards Steven said sorry to",
+        "name_A": "Kimberly",
+        "name_B": "Christine",
+        "name_C": "Steven",
+        "template": "Then {A} and {B} had a long argument, and afterwards {B} said sorry to",
+        "template_idx": 2
+    },
+    {
+        "clean_prompt": "Then John and Anna had a long argument, and afterwards Anna said sorry to",
+        "corrupted_prompt": "Then John and Anna had a long argument, and afterwards Patrick said sorry to",
+        "name_A": "John",
+        "name_B": "Anna",
+        "name_C": "Patrick",
+        "template": "Then {A} and {B} had a long argument, and afterwards {B} said sorry to",
+        "template_idx": 2
+    },
+    {
+        "clean_prompt": "Then Lisa and Kimberly had a long argument, and afterwards Kimberly said sorry to",
+        "corrupted_prompt": "Then Lisa and Kimberly had a long argument, and afterwards Robert said sorry to",
+        "name_A": "Lisa",
+        "name_B": "Kimberly",
+        "name_C": "Robert",
+        "template": "Then {A} and {B} had a long argument, and afterwards {B} said sorry to",
+        "template_idx": 2
+    },
+    {
+        "clean_prompt": "Then Michael and Edward had a long argument, and afterwards Edward said sorry to",
+        "corrupted_prompt": "Then Michael and Edward had a long argument, and afterwards Anna said sorry to",
+        "name_A": "Michael",
+        "name_B": "Edward",
+        "name_C": "Anna",
+        "template": "Then {A} and {B} had a long argument, and afterwards {B} said sorry to",
+        "template_idx": 2
+    },
+    {
+        "clean_prompt": "Then Anna and Andrew had a long argument, and afterwards Andrew said sorry to",
+        "corrupted_prompt": "Then Anna and Andrew had a long argument, and afterwards Michelle said sorry to",
+        "name_A": "Anna",
+        "name_B": "Andrew",
+        "name_C": "Michelle",
+        "template": "Then {A} and {B} had a long argument, and afterwards {B} said sorry to",
+        "template_idx": 2
+    },
+    {
+        "clean_prompt": "Then Janet and Jonathan had a long argument, and afterwards Jonathan said sorry to",
+        "corrupted_prompt": "Then Janet and Jonathan had a long argument, and afterwards Dorothy said sorry to",
+        "name_A": "Janet",
+        "name_B": "Jonathan",
+        "name_C": "Dorothy",
+        "template": "Then {A} and {B} had a long argument, and afterwards {B} said sorry to",
+        "template_idx": 2
+    },
+    {
+        "clean_prompt": "Then Nicole and Charles had a long argument, and afterwards Charles said sorry to",
+        "corrupted_prompt": "Then Nicole and Charles had a long argument, and afterwards Samantha said sorry to",
+        "name_A": "Nicole",
+        "name_B": "Charles",
+        "name_C": "Samantha",
+        "template": "Then {A} and {B} had a long argument, and afterwards {B} said sorry to",
+        "template_idx": 2
+    },
+    {
+        "clean_prompt": "Then Samantha and Eric had a long argument, and afterwards Eric said sorry to",
+        "corrupted_prompt": "Then Samantha and Eric had a long argument, and afterwards Emily said sorry to",
+        "name_A": "Samantha",
+        "name_B": "Eric",
+        "name_C": "Emily",
+        "template": "Then {A} and {B} had a long argument, and afterwards {B} said sorry to",
+        "template_idx": 2
+    },
+    {
+        "clean_prompt": "Then Eric and Ryan had a long argument, and afterwards Ryan said sorry to",
+        "corrupted_prompt": "Then Eric and Ryan had a long argument, and afterwards Mark said sorry to",
+        "name_A": "Eric",
+        "name_B": "Ryan",
+        "name_C": "Mark",
+        "template": "Then {A} and {B} had a long argument, and afterwards {B} said sorry to",
+        "template_idx": 2
+    },
+    {
+        "clean_prompt": "Then Richard and Jack had a long argument, and afterwards Jack said sorry to",
+        "corrupted_prompt": "Then Richard and Jack had a long argument, and afterwards Amy said sorry to",
+        "name_A": "Richard",
+        "name_B": "Jack",
+        "name_C": "Amy",
+        "template": "Then {A} and {B} had a long argument, and afterwards {B} said sorry to",
+        "template_idx": 2
+    },
+    {
+        "clean_prompt": "Then Stephanie and Jacob had a long argument, and afterwards Jacob said sorry to",
+        "corrupted_prompt": "Then Stephanie and Jacob had a long argument, and afterwards Ryan said sorry to",
+        "name_A": "Stephanie",
+        "name_B": "Jacob",
+        "name_C": "Ryan",
+        "template": "Then {A} and {B} had a long argument, and afterwards {B} said sorry to",
+        "template_idx": 2
+    },
+    {
+        "clean_prompt": "Then Shirley and David had a long argument, and afterwards David said sorry to",
+        "corrupted_prompt": "Then Shirley and David had a long argument, and afterwards Dennis said sorry to",
+        "name_A": "Shirley",
+        "name_B": "David",
+        "name_C": "Dennis",
+        "template": "Then {A} and {B} had a long argument, and afterwards {B} said sorry to",
+        "template_idx": 2
+    },
+    {
+        "clean_prompt": "Then Carolyn and Alexander had a long argument, and afterwards Alexander said sorry to",
+        "corrupted_prompt": "Then Carolyn and Alexander had a long argument, and afterwards Richard said sorry to",
+        "name_A": "Carolyn",
+        "name_B": "Alexander",
+        "name_C": "Richard",
+        "template": "Then {A} and {B} had a long argument, and afterwards {B} said sorry to",
+        "template_idx": 2
+    },
+    {
+        "clean_prompt": "Then Lisa and Cynthia had a long argument, and afterwards Cynthia said sorry to",
+        "corrupted_prompt": "Then Lisa and Cynthia had a long argument, and afterwards Deborah said sorry to",
+        "name_A": "Lisa",
+        "name_B": "Cynthia",
+        "name_C": "Deborah",
+        "template": "Then {A} and {B} had a long argument, and afterwards {B} said sorry to",
+        "template_idx": 2
+    },
+    {
+        "clean_prompt": "Then Helen and Emily had a long argument, and afterwards Emily said sorry to",
+        "corrupted_prompt": "Then Helen and Emily had a long argument, and afterwards Mark said sorry to",
+        "name_A": "Helen",
+        "name_B": "Emily",
+        "name_C": "Mark",
+        "template": "Then {A} and {B} had a long argument, and afterwards {B} said sorry to",
+        "template_idx": 2
+    },
+    {
+        "clean_prompt": "Then Mark and Justin had a long argument, and afterwards Justin said sorry to",
+        "corrupted_prompt": "Then Mark and Justin had a long argument, and afterwards Angela said sorry to",
+        "name_A": "Mark",
+        "name_B": "Justin",
+        "name_C": "Angela",
+        "template": "Then {A} and {B} had a long argument, and afterwards {B} said sorry to",
+        "template_idx": 2
+    },
+    {
+        "clean_prompt": "Then Karen and Jacob had a long argument, and afterwards Jacob said sorry to",
+        "corrupted_prompt": "Then Karen and Jacob had a long argument, and afterwards Sandra said sorry to",
+        "name_A": "Karen",
+        "name_B": "Jacob",
+        "name_C": "Sandra",
+        "template": "Then {A} and {B} had a long argument, and afterwards {B} said sorry to",
+        "template_idx": 2
+    },
+    {
+        "clean_prompt": "Then Michelle and Shirley had a long argument, and afterwards Shirley said sorry to",
+        "corrupted_prompt": "Then Michelle and Shirley had a long argument, and afterwards Emily said sorry to",
+        "name_A": "Michelle",
+        "name_B": "Shirley",
+        "name_C": "Emily",
+        "template": "Then {A} and {B} had a long argument, and afterwards {B} said sorry to",
+        "template_idx": 2
+    },
+    {
+        "clean_prompt": "Then Anna and Gary had a long argument, and afterwards Gary said sorry to",
+        "corrupted_prompt": "Then Anna and Gary had a long argument, and afterwards Scott said sorry to",
+        "name_A": "Anna",
+        "name_B": "Gary",
+        "name_C": "Scott",
+        "template": "Then {A} and {B} had a long argument, and afterwards {B} said sorry to",
+        "template_idx": 2
+    },
+    {
+        "clean_prompt": "Then Richard and David had a long argument, and afterwards David said sorry to",
+        "corrupted_prompt": "Then Richard and David had a long argument, and afterwards Carolyn said sorry to",
+        "name_A": "Richard",
+        "name_B": "David",
+        "name_C": "Carolyn",
+        "template": "Then {A} and {B} had a long argument, and afterwards {B} said sorry to",
+        "template_idx": 2
+    },
+    {
+        "clean_prompt": "Then Nicole and Mary had a long argument, and afterwards Mary said sorry to",
+        "corrupted_prompt": "Then Nicole and Mary had a long argument, and afterwards Laura said sorry to",
+        "name_A": "Nicole",
+        "name_B": "Mary",
+        "name_C": "Laura",
+        "template": "Then {A} and {B} had a long argument, and afterwards {B} said sorry to",
+        "template_idx": 2
+    },
+    {
+        "clean_prompt": "Then Andrew and Margaret had a long argument, and afterwards Margaret said sorry to",
+        "corrupted_prompt": "Then Andrew and Margaret had a long argument, and afterwards Ryan said sorry to",
+        "name_A": "Andrew",
+        "name_B": "Margaret",
+        "name_C": "Ryan",
+        "template": "Then {A} and {B} had a long argument, and afterwards {B} said sorry to",
+        "template_idx": 2
+    },
+    {
+        "clean_prompt": "Then Jonathan and Brenda had a long argument, and afterwards Brenda said sorry to",
+        "corrupted_prompt": "Then Jonathan and Brenda had a long argument, and afterwards Dorothy said sorry to",
+        "name_A": "Jonathan",
+        "name_B": "Brenda",
+        "name_C": "Dorothy",
+        "template": "Then {A} and {B} had a long argument, and afterwards {B} said sorry to",
+        "template_idx": 2
+    },
+    {
+        "clean_prompt": "Then Cynthia and Lisa had a long argument, and afterwards Lisa said sorry to",
+        "corrupted_prompt": "Then Cynthia and Lisa had a long argument, and afterwards Margaret said sorry to",
+        "name_A": "Cynthia",
+        "name_B": "Lisa",
+        "name_C": "Margaret",
+        "template": "Then {A} and {B} had a long argument, and afterwards {B} said sorry to",
+        "template_idx": 2
+    },
+    {
+        "clean_prompt": "Then Jason and John had a long argument, and afterwards John said sorry to",
+        "corrupted_prompt": "Then Jason and John had a long argument, and afterwards Sharon said sorry to",
+        "name_A": "Jason",
+        "name_B": "John",
+        "name_C": "Sharon",
+        "template": "Then {A} and {B} had a long argument, and afterwards {B} said sorry to",
+        "template_idx": 2
+    },
+    {
+        "clean_prompt": "Then Donna and Nicholas had a long argument, and afterwards Nicholas said sorry to",
+        "corrupted_prompt": "Then Donna and Nicholas had a long argument, and afterwards Kevin said sorry to",
+        "name_A": "Donna",
+        "name_B": "Nicholas",
+        "name_C": "Kevin",
+        "template": "Then {A} and {B} had a long argument, and afterwards {B} said sorry to",
+        "template_idx": 2
+    }
+]
