@@ -99,7 +99,7 @@ Random baseline results are based on necessity, and as we can see, the baseline 
 
 A total of 7 MLP Layers and 10 Attention heads were selected which crossed the threshold of 0.3. I considered the same configurations for random baseline.
 
-Sparsity for token-by-token is 28 MLP token-layers and __ attention heads (__/1280 components ~__%)
+Sparsity for token-by-token is 28 MLP token-layers and 21 attention heads (49/1280 components ~ 3.8%)
 
 ## Observations
 Based on the study of patching complete layers - 
