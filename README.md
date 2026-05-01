@@ -7,7 +7,7 @@ This is my submission to Lexsi Labs as an Assignment to do circuit Discovery ove
 
 The dataset was created using a template (present in the code file).
 
-The main code file is `complete_run.ipynb`, where all the code for this assignment has been written by me. 
+The main code file is `complete_run.ipynb`, where all the code for this assignment has been written by me. (the first half is related to layer-by-layer activation patching and finding the most important layers, I am still working on the second half related to token-by-token activation patching. Thank you for understanding.)
 
 This was a very challenging task as it was very difficult to code all the logic and the process by hand without using AI. 
 
@@ -15,7 +15,7 @@ The configurations are as follows:
 - **model** - meta-llama/Llama-3.2-1B
 - **precision** - float16 (fp16)
 - **batch size** - 1
-- **sparsity** - 17 ( based on the threshold of 0.3)
+- **sparsity** - 17 ( based on the threshold of 0.3) (for layer-by-layer)
 - **seeds** - [42, 54, 67]
 - **Device** - mps
 
@@ -86,7 +86,10 @@ The following table summarizes the performance of the discovered circuit compare
 | **Original (Full Model)** | 5.3867 |
 | **Discovered Circuit (Sufficiency)** | 0.4080 |
 | **Discovered Circuit (Necessity)** | 0.4951 |
-| **Random Baseline (Necessity)** | 0.6655 |
+| **Random Baseline (Necessity) (Layer)** | 0.6655 |
+| **Discovered Circuit (Sufficiency) (Token based patching)** | 0.5337 |
+| **Discovered Circuit (Necessity) (Token based patching)** | 0.5210 | 
+**Random Baseline (Necessity) (Token Based patching)** | 5.2227 |
 
 Necessity means how important those nodes are for the model to predict, which is done by patching the chosen mlp layers and attention heads with corrupted activations, therefore, lesser the score, the better (showing dependency of the model over these particular components)
 
@@ -95,6 +98,8 @@ Sufficiency is when the model uses only those nodes selected and gives the corre
 Random baseline results are based on necessity, and as we can see, the baseline performs better with removal of random components rather than the important ones, showing the role they play in developement of model understanding. As the model is of only 80 components (16 total MLP layers with 16*4 attention heads), we can see how each component plays an important role.
 
 A total of 7 MLP Layers and 10 Attention heads were selected which crossed the threshold of 0.3. I considered the same configurations for random baseline.
+
+Sparsity for token-by-token is 28 MLP token-layers and __ attention heads (__/1280 components ~__%)
 
 ## Observations
 Based on the study of patching complete layers - 
